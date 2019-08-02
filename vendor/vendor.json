@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "ZZX+xkIxtScSa8XI+lZHANxOHhY=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "ceae19ce1c5ac766abad8db04d649a7a83e91ced",
+			"revisionTime": "2018-05-23T13:44:17Z"
+		}
+	],
+	"rootPath": "ping-mysql"
+}
