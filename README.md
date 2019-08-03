@@ -8,5 +8,4 @@
  - PASSWORD=1234
 
 ## image and source
-- [pangpanglabs/alpine-ssl](https://github.com/pangpanglabs/dockerfiles/blob/master/alpine-ssl/Dockerfile)
-- [wait-for-it.sh](https://github.com/vishnubob/wait-for-it)
+- [wait-for.sh](https://github.com/eficode/wait-for.git)
