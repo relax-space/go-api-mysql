@@ -20,12 +20,8 @@ func main() {
 	}
 	defer db.Close()
 
-	for index := 0; index < 100; index++ {
-		if err = db.Ping(); err != nil {
-			fmt.Printf("ping is err:%v \n", err)
-			time.Sleep(1 * time.Second)
-			continue
-		}
+	if err = db.Ping(); err != nil {
+		panic(err)
 	}
 
 	fmt.Println("ping is ok")
